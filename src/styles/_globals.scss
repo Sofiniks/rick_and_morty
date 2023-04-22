@@ -1,0 +1,74 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap');
+
+@font-face {
+  font-family: 'get_schwiftyregular';
+  src: url('../assets/fonts/get_schwifty-webfont.woff') format('woff');
+    // url('get_schwifty-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+//html {
+//  scroll-behavior: smooth;
+//}
+
+html,
+body,
+body > div,
+body > div > div {
+  min-height: 100%;
+}
+
+*,
+body {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #00022d;
+  color: #ffffff;
+  font-family: 'get_schwiftyregular';
+  font-weight: normal;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
