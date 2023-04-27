@@ -13,7 +13,7 @@ import {
 	CardMedia,
 	CardContent,
 } from "@mui/material";
-import { Loader } from "../components/Loader/Loader";
+import { Loader } from "../components/Loader";
 
 export function Categories() {
 	const { category } = useParams();

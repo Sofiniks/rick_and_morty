@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import { Header } from "../components/Header";
 import { Suspense } from "react";
 import { Container, Box } from "@mui/material";
-import { Loader } from "../components/Loader/Loader";
+import { Loader } from "../components/Loader";
 
 function LoaderScreen() {
 	return (
@@ -22,8 +22,8 @@ export function MainLayout() {
 	return (
 		<>
 			<Header />
-			<Suspense fallback={<LoaderScreen/>}>
-				<Container sx={{paddingTop: '100px'}}>
+			<Suspense fallback={<LoaderScreen />}>
+				<Container sx={{ paddingTop: "100px" }}>
 					<Outlet />
 				</Container>
 			</Suspense>
